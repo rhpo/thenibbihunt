@@ -6,7 +6,7 @@
 	import Rahimisdumb from '$lib/challenges/rahimisdumb.svelte';
 	import Garbagecollector from '$lib/challenges/garbagecollector.svelte';
 	import Areyoucurious from '$lib/challenges/areyoucurious.svelte';
-	import YOUHAVEFINISHED from '$lib/challenges/YOUHAVEFINISHED.svelte';
+	import Welcomehunter from '$lib/challenges/welcomehunter.svelte';
 
 	var key;
 	var page;
@@ -30,8 +30,11 @@
 			case 'areyoucurious':
 				page = Areyoucurious;
 				break;
-			case 'YOUHAVEFINISHED':
-				page = YOUHAVEFINISHED;
+			case 'welcomehunter':
+			case 'WelcomeHunter':
+			case 'Welcomehunter':
+			case 'WELCOMEHUNTER':
+				page = Welcomehunter;
 				break;
 			default:
 				page = null;
