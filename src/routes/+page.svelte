@@ -1,4 +1,4 @@
-<h1>Welcome to DCTF</h1>
+<h1>Welcome to Nibbie HUNT! (CTF)</h1>
 <p>We are glad to have you here!</p>
 
 <!-- NEXTPTOKEN: ilovenibbi -->
